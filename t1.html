@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h3>CAMBIAR IDIOMA</h3>
+  <select name="langs" id="langs" onchange="setLang()">
+    <option value="eng">English</option>
+    <option value="spn" selected>Spanish</option>
+  </select>
+
+  <div class="container">
+    <header>
+      <h1>Hassan Al Nahass</h1>
+      <p>Ingeniero de Software | Desarrollador Web</p>
+      <p><span><a href="mailto:life92831@gmail.com">Envíame un correo!</a></span> | Número de teléfono: +240 555 000 050</p>
+    </header>
+
+    <section>
+      <h2>Resumen</h2>
+      <p>Un apasionado ingeniero de software con experiencia en desarrollo full-stack, especializado en la creación de aplicaciones web responsivas y sistemas backend escalables. Ha demostrado la capacidad de aprender rápidamente nuevas herramientas y frameworks según sea necesario, con un enfoque en mantenerse actualizado con las tendencias de la industria.</p>
+    </section>
+
+    <section>
+      <h2>Habilidades y Tecnologías</h2>
+      <ul class="skills">
+        <li>C</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>PHP</li>
+        <li>Node.js</li>
+        <li>ReactJS</li>
+        <li>MongoDB</li>
+        <li>PHPMYADMIN</li>
+        <li>GIT VCS</li>
+        <li>DOCKER</li>
+        <li>MS Office</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experiencia</h2>
+      <div class="job">
+        <h3>Pasantía en Ingeniería de Software</h3>
+        <p><em>June 2024 – August 2024</em></p>
+        <ul>
+          <li>Ayudé a desarrollar un sitio web responsivo para la empresa utilizando HTML, CSS y JavaScript.</li>
+          <li>Asistí en la depuración y mejora de APIs backend utilizando Node.js y Express.</li>
+        </ul>
+
+        <p><em>May 2023 - July 2023</em></p>
+        <ul>
+            <li>Conseguí mi primer trabajo de entrada de datos, donde comencé a desarrollar mis habilidades en gestión de datos y herramientas de oficina.</li>
+            <li>Mi rol como empleado de entrada de datos me ayudó a perfeccionar mi destreza en Microsoft Office, especialmente en Excel y Word, ya que usaba estas herramientas a diario para ingresar y organizar datos de manera precisa.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Proyecto Personal – Plataforma de Comentarios</h3>
+        <p><em>January 2024 – February 2024</em></p>
+        <ul>
+          <li>Construí un sistema de inicio de sesión/registro.</li>
+          <li>Implementé una función de comentarios que permite a los usuarios publicar y ver comentarios en tiempo real.</li>
+        </ul>
+
+        <p><em>Aug 2023 – Present</em></p>
+        <ul>
+            <li>Construí una aplicación de chat en tiempo real que permite a los usuarios en una red local conectarse y chatear sin problemas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Licenciatura en Ciencias de la Computación (próximamente)</strong><br/>
+         LIU University | 2022 – 2024</p>
+        <p><strong>Estudiando para el título de Cisco CCNA</strong><br>
+            2024 - 2025
+        </p>
+    </section>
+  </div>
+
+  <script>
+    function setLang() {
+      window.location.href = "t.html";
+    }
+  </script>
+
+</body>
+</html>
